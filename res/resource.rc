@@ -1,0 +1,33 @@
+	1 ICON "res/exe_icon.ico"
+
+			1 VERSIONINFO
+			FILEVERSION 0,1,0,0
+			PRODUCTVERSION 0,1,0,0
+			FILEOS 0x40004L
+			FILETYPE 0x1L
+			BEGIN
+				BLOCK "StringFileInfo"
+				BEGIN
+					BLOCK "000004E6"
+					BEGIN
+						VALUE "Comments", "Rust_Projects/set_mouse_speed/src/main_main.rs"
+						VALUE "CompanyName", "Umit UZUN-Ümit UZUN"
+						VALUE "FileVersion", "0.1.0"
+						VALUE "FileDescription", "Sets Mouse Speed When Holding/Toggling Ctrl"
+						VALUE "InternalName", "Umit UZUN <uzun_umit@yahoo.co.uk>"
+						VALUE "LegalTrademarks", "main_main.rs"
+						VALUE "LegalCopyright", "CC BY NC"
+						VALUE "OriginalFilename", "set_mouse_speed"
+						VALUE "PrivateBuild", "Umit UZUN <uzun_umit@yahoo.co.uk>"
+						// VALUE "ProductName", "repository - Empty For Now"
+						VALUE "ProductName", "Umit UZUN <uzun_umit@yahoo.co.uk>"
+						VALUE "ProductVersion", "0.1.0"
+						VALUE "SpecialBuild", "Umit UZUN <uzun_umit@yahoo.co.uk>"
+					END
+				END
+				BLOCK "VarFileInfo"
+				BEGIN
+					VALUE "Translation", 0x0000, 1254
+				END
+			END
+			

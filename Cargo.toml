@@ -1,0 +1,30 @@
+[package]
+name = "set_mouse_speed"
+version = "0.1.0"
+edition = "2024"
+license = "CC BY NC"
+# license-file="licece file - Empty For Now"
+authors = ["Umit UZUN <uzun_umit@yahoo.co.uk>"]
+description = "Sets Mouse Speed When Holding/Toggling Ctrl"
+build = "build.rs"
+homepage="Rust_Projects/set_mouse_speed/src/main_main.rs"
+repository="repository - Empty For Now"
+
+[dependencies]
+tray-icon = "0.26.1"
+winit = "0.30.13"
+global-hotkey = "0.9.0"
+windows = { version = "0.62.2", features = ["Win32_UI_WindowsAndMessaging", "Win32_UI_Shell", ] }
+mki = "0.2.3" 
+image = "0.25.10"
+anyhow = "1.0.104"
+single-instance = "0.3.3"
+
+[build-dependencies]
+embed-resource = "3.0.12"
+
+
+[features]
+default = ["hold"]  # compile with cargo build --no-default-features --features "hold" or cargo build --no-default-features --features "toggle"
+hold = []
+toggle=[]
